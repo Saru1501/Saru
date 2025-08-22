@@ -1,0 +1,40 @@
+.invoice-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: var(--spacing-2);
+    font-weight: 500;
+    color: var(--navy-800);
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: var(--navy-500);
+    box-shadow: 0 0 0 2px rgba(72, 101, 129, 0.2);
+  }
+  
+  .form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-6);
+  }
+  
+  .form-submit .btn {
+    min-width: 8rem;
+  }

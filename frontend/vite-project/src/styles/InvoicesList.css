@@ -1,0 +1,55 @@
+.invoices-list {
+    width: 100%;
+  }
+  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-6);
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th {
+    background-color: var(--navy-100);
+    color: var(--navy-800);
+    text-align: left;
+    padding: var(--spacing-3);
+    font-weight: 600;
+  }
+  
+  .table td {
+    padding: var(--spacing-3);
+    border-bottom: 1px solid var(--gray-200);
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: var(--spacing-2);
+  }
+  
+  .loading, .no-data {
+    text-align: center;
+    padding: var(--spacing-4);
+    color: var(--gray-500);
+  }
+  
+  @media (max-width: 768px) {
+    .page-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--spacing-4);
+    }
+    
+    .page-header .btn {
+      width: 100%;
+    }
+  }
