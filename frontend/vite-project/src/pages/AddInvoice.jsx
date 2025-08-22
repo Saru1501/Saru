@@ -109,16 +109,7 @@ function AddInvoice() {
               />
             </div>
             
-            <div className="form-group">
-              <label htmlFor="dueDate">Due Date</label>
-              <input
-                type="date"
-                id="dueDate"
-                value={dueDate}
-                onChange={(e) => setDueDate(e.target.value)}
-                required
-              />
-            </div>
+            ?
             
             <div className="form-submit">
               <button 
